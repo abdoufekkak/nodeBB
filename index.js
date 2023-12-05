@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
 });
 
 // Démarrage du serveur sur le port 3000
-const PORT = 80;
+const PORT = 3000;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
